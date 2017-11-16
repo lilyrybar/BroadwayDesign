@@ -1,16 +1,21 @@
 body {text-align: center;
       font-family: Helvetica;}
+div.home {background-image: url("../images/the-flatiron-building.png");
+          background-size: cover;
+          background-repeat: no-repeat;}
 h1 {font-size: 70px;
     font-weight: bold;
     color: white;}
-div.home {background-image: url("images/the-flatiron-building.png")}
+nav.top a {font-size: 18px;
+           color: white;}
 h2 {font-size: 32px;
     font-weight: bold;}
 h3 {font-size: 23px;
     font-weight: bold;}
 h3.NY {color: white;
-       background-image: url("images/the-flatiron-building.png")}
+       background-image: url("../images/the-flatiron-building.png");}
 p {font-size: 14px;}
-nav.bottom {font-size: 11px;
+nav.footer, nav.footer a {font-size: 11px;
             color: white;
-            background-color: dimgray;}
+            background-color: dimgray;
+            text-align: left;}
